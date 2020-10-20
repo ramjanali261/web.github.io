@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+  <form>
+    <h2 > Fill the form: </h2><hr>
+     <table>
+         <tr>
+             <td><label for="user">Username :</label></td>
+             <td><input type="text" id="user" name="user" required></td>
+         </tr>
+        <tr>
+            <td><label for="pass">Password :</label></td>
+            <td><input type="password" id="pass" name="pass" required></td>
+        </tr>
+        <tr>
+        <td><label for=" gender">Gender :</label></td>
+        <td>Male :<input type="radio" name="gender" required> <br>Female :<input type="radio" name="gender" required></td>
+        </tr>
+        <tr>
+            <td><label for="skills">Skills :</label></td>
+            <td>HTML : <input type="checkbox" name="html" value="html" > <br>CSS : <input type="checkbox" name="html" value="css" > <br>PHP :<input type="checkbox" name="php" value="php">
+        </tr>
+        <tr>
+            <td><label for="country">Select Country :</label></td>
+            <td><select id="country" name="country">
+                <option value="">Select Your Country</option>
+                <option value="in">India</option>
+                <option value="us">USA</option>
+                <option value="rus">Russia</option>
+                <option value="can">Canada</option>
+                <option value="pak">Pakistan</option>
+                <option value="ger">Germany</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label for="comments">Comments :</label></td>
+            <td><textarea rows="8" cols="30"></textarea></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Click to Submit" name="submit">
+        </tr>
+        </table>
+ </form>
+</body>
+</html>
